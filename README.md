@@ -4,14 +4,15 @@ It focuses on orders, customers, and profits, uncovering insights into sales tre
 
 The workflow demonstrates:
 
-Data handling with Pandas
+-Data handling with Pandas
 
-Numerical analysis with NumPy
+-Numerical analysis with NumPy
 
-Visualizations with Matplotlib & Seaborn
+-Visualizations with Matplotlib & Seaborn
 
-Business insights from statistical summaries and charts
+-Business insights from statistical summaries and charts
 
+---
 
 
 📊 **Dataset** 
@@ -33,66 +34,82 @@ Quantity
 
 Profit
 
+---
+
 
 ⚙️ **Technologies Used**
-Python 3
+-Python 3
 
-Pandas → Data loading & cleaning
+-Pandas → Data loading & cleaning
 
-NumPy → Statistical calculations
+-NumPy → Statistical calculations
 
-Matplotlib → Basic plots
+-Matplotlib → Basic plots
 
-Seaborn → Advanced visualizations
+-Seaborn → Advanced visualizations
+
+--- 
 
 
 🚀 **Steps Performed**
-Load dataset (Superstore.csv)
+-Load dataset (Superstore.csv)
 
-Clean data (handle missing values, convert dates)
+-Clean data (handle missing values, convert dates)
 
-Perform analysis (averages, grouped statistics, correlations)
+-Perform analysis (averages, grouped statistics, correlations)
 
 Visualize results:
 
-Bar chart → Sales by Category
+    -Bar chart → Sales by Category
 
-Scatter plot → Sales vs Profit
+    -Scatter plot → Sales vs Profit
 
-Heatmap → Correlation matrix
+    -Heatmap → Correlation matrix
 
-Line chart → Sales trend over time
+    -Line chart → Sales trend over time
+
+---
 
 
 📈 **Key Insights**
-Average sales per order calculated
+-Average sales per order calculated
 
-Category with highest average profit identified
+-Category with highest average profit identified
 
-Region with highest total sales highlighted
+-Region with highest total sales highlighted
 
-Strong correlation observed between Sales and Profit
+-Strong correlation observed between Sales and Profit
+
+---
 
 
 🖥️ **How to Run**
-Clone the repository:
+1. Clone the repository:
 
 bash
 git clone https://github.com/<Harshithag25>/Superstore-Sales-Analysis.git
-Navigate to the project folder:
+
+2. Navigate to the project folder:
 
 bash
 cd Superstore-Sales-Analysis
-Install dependencies:
+
+3. Install dependencies:
 
 bash
 pip install pandas numpy matplotlib seaborn
-Run the script:
+
+4. Run the script:
 
 bash
 python main.py
+
+---
+
 
 
 🤝 **Contributions**
 Contributions are welcome!
 You can fork this repo, add new visualizations, or extend the analysis with additional features.
+
+---

@@ -1,4 +1,6 @@
 📌 **Project Overview**
+
+
 This project performs data analysis and visualization on the Superstore Sales dataset using Python.
 It focuses on orders, customers, and profits, uncovering insights into sales trends, customer segments, and profitability.
 
@@ -16,6 +18,8 @@ The workflow demonstrates:
 
 
 📊 **Dataset** 
+
+
 The dataset contains transactional records from a retail superstore.
 
 Order Date
@@ -38,6 +42,8 @@ Profit
 
 
 ⚙️ **Technologies Used**
+
+
 -Python 3
 
 -Pandas → Data loading & cleaning
@@ -52,6 +58,8 @@ Profit
 
 
 🚀 **Steps Performed**
+
+
 -Load dataset (Superstore.csv)
 
 -Clean data (handle missing values, convert dates)
@@ -72,6 +80,8 @@ Visualize results:
 
 
 📈 **Key Insights**
+
+
 -Average sales per order calculated
 
 -Category with highest average profit identified
@@ -84,6 +94,8 @@ Visualize results:
 
 
 🖥️ **How to Run**
+
+
 1. Clone the repository:
 
 bash
@@ -109,6 +121,8 @@ python main.py
 
 
 🤝 **Contributions**
+
+
 Contributions are welcome!
 You can fork this repo, add new visualizations, or extend the analysis with additional features.
 

@@ -96,6 +96,8 @@ Line chart → sales_trend_over_time.png
 ---
 
 
+<<<<<<< HEAD
 ## ⭐ Contribute
 
 Feel free to fork this repo and improve it!
+=======

@@ -1,4 +1,4 @@
-# 📊 Superstore Sales Analysis Project
+# 📊 Project Review 
 
 A Python‑based data analysis and visualization project that generates insights, statistics, and visualizations from the Superstore dataset.
 
@@ -47,35 +47,37 @@ A Python‑based data analysis and visualization project that generates insights
 
 The project uses the Superstore Sales dataset:
 
-    -Order Date
+-Order Date
 
-    -Customer ID
+-Customer ID
 
-    -Segment
+-Segment
 
-    -Region
+-Region
 
-    -Category
+-Category
 
-    -Sales
+-Sales
 
-    -Quantity
+-Quantity
 
-    -Profit
+-Profit
 
 ---
 
 ## 📸 Output
 
-- The program generates:
+The program generates:
 
-Bar chart → bar_chart_sales_by_category.png
+-Bar chart → bar_chart_sales_by_category.png
 
-Scatter plot → scatter_sales_vs_profit.png
+-Scatter plot → scatter_sales_vs_profit.png
 
-Heatmap → correlation_heatmap.png
+-Heatmap → correlation_heatmap.png
 
-Line chart → sales_trend_over_time.png
+-Line chart → sales_trend_over_time.png
+
+
 ---
 
 ## 🧠 Insights Generated
@@ -96,8 +98,6 @@ Line chart → sales_trend_over_time.png
 ---
 
 
-<<<<<<< HEAD
 ## ⭐ Contribute
 
 Feel free to fork this repo and improve it!
-=======

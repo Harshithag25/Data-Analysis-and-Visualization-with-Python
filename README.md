@@ -1,115 +1,101 @@
-📌 **Project Overview**
-This project performs data analysis and visualization on the Superstore Sales dataset using Python.
-It focuses on orders, customers, and profits, uncovering insights into sales trends, customer segments, and profitability.
+# 📊 Superstore Sales Analysis Project
 
-The workflow demonstrates:
+A Python‑based data analysis and visualization project that generates insights, statistics, and visualizations from the Superstore dataset.
 
--Data handling with Pandas
+---
 
--Numerical analysis with NumPy
+## 🚀 Features
 
--Visualizations with Matplotlib & Seaborn
+- 📂 Load and explore datasets
+- 📈 Statistical analysis (mean, median, grouped averages, correlations)
+- 📊 Data visualization:
 
--Business insights from statistical summaries and charts
+    -Bar charts → Sales by Category
+
+    -Correlation heatmaps → Relationships between numerical features
+
+    -Line charts → Sales trend over time
+
+    -Scatter Plots → Sales vs Profit 
+
+🔍 Automatic insights generation (top categories, profitable regions, correlations)
+
+📁 Export visualizations as PNG files
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository: https://github.com/Harshithag25/Data-Analysis-and-Visualization-with-Python.git 
+2. Navigate to the project folder: cd Data-Analysis-And-Visualization-with-Python
+3. Install dependencies: pip install pandas numpy matplotlib seaborn
+4. Run the script: python main.py
+
+---
+
+## 📊 Sample Dataset
+
+The project uses the Superstore Sales dataset:
+
+    -Order Date
+
+    -Customer ID
+
+    -Segment
+
+    -Region
+
+    -Category
+
+    -Sales
+
+    -Quantity
+
+    -Profit
+
+---
+
+## 📸 Output
+
+- The program generates:
+
+Bar chart → bar_chart_sales_by_category.png
+
+Scatter plot → scatter_sales_vs_profit.png
+
+Heatmap → correlation_heatmap.png
+
+Line chart → sales_trend_over_time.png
+---
+
+## 🧠 Insights Generated
+
+- Average sales per order
+- Category with highest average profit
+- Region with highest total sales
+- Strong correlation between Sales and Profit
+
+---
+
+## ⚠️ Notes
+
+- Ensure dataset file (data.csv) is placed in the project folder
+- Scatter plots work best with numerical columns
+- Large datasets may take more time for visualization
 
 ---
 
 
-📊 **Dataset** 
-The dataset contains transactional records from a retail superstore.
+## ⭐ Contribute
 
-Order Date
-
-Customer ID
-
-Segment
-
-Region
-
-Category
-
-Sales
-
-Quantity
-
-Profit
-
----
-
-
-⚙️ **Technologies Used**
--Python 3
-
--Pandas → Data loading & cleaning
-
--NumPy → Statistical calculations
-
--Matplotlib → Basic plots
-
--Seaborn → Advanced visualizations
-
---- 
-
-
-🚀 **Steps Performed**
--Load dataset (Superstore.csv)
-
--Clean data (handle missing values, convert dates)
-
--Perform analysis (averages, grouped statistics, correlations)
-
-Visualize results:
-
-    -Bar chart → Sales by Category
-
-    -Scatter plot → Sales vs Profit
-
-    -Heatmap → Correlation matrix
-
-    -Line chart → Sales trend over time
-
----
-
-
-📈 **Key Insights**
--Average sales per order calculated
-
--Category with highest average profit identified
-
--Region with highest total sales highlighted
-
--Strong correlation observed between Sales and Profit
-
----
-
-
-🖥️ **How to Run**
-1. Clone the repository:
-
-bash
-git clone https://github.com/<Harshithag25>/Superstore-Sales-Analysis.git
-
-2. Navigate to the project folder:
-
-bash
-cd Superstore-Sales-Analysis
-
-3. Install dependencies:
-
-bash
-pip install pandas numpy matplotlib seaborn
-
-4. Run the script:
-
-bash
-python main.py
-
----
-
-
-
-🤝 **Contributions**
-Contributions are welcome!
-You can fork this repo, add new visualizations, or extend the analysis with additional features.
-
----
+Feel free to fork this repo and improve it!

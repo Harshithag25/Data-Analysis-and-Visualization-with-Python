@@ -47,6 +47,8 @@ A Python‑based data analysis and visualization project that generates insights
 
 The project uses the Superstore Sales dataset:
 
+-Row ID
+
 -Order Date
 
 -Customer ID
@@ -69,14 +71,15 @@ The project uses the Superstore Sales dataset:
 
 The program generates:
 
--Bar chart → bar_chart_sales_by_category.png
+-Bar chart → Total Sales by Category
+![Bar Chart](outputs/bar_chart_sales_by_category.png)
 
--Scatter plot → scatter_sales_vs_profit.png
+-Scatter plot → Sales vs Profit by Category
+![Scatter Plot](outputs/scatter_sales_vs_profit.png)
 
 -Heatmap → correlation_heatmap.png
 
--Line chart → sales_trend_over_time.png
-
+-Line chart → sales_trend_over_time.png 
 
 ---
 

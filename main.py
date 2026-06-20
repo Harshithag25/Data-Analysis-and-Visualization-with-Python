@@ -28,11 +28,27 @@ sales_by_category.plot(kind='bar', color='skyblue')
 plt.title('Total Sales by Category')
 plt.xlabel('Category') 
 plt.ylabel('Sales')
-plt.savefig('outputs/bar_chart.png')
+plt.savefig('bar_chart.png')
 plt.show() 
 
 #Scatter Plot
 sns.scatterplot(x='Sales', y='Profit', data=df, hue='Category', color='red') 
 plt.title('Sales Vs Profit by Category')
-plt.savefig('outputs/scatter_plot.png') 
+plt.savefig('scatter_plot.png') 
 plt.show() 
+
+#Heatmap
+corr = df[['Sales','Quantity','Profit']].corr()
+sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Correlation Heatmap (Sales, Quantity, Profit)')
+plt.savefig("heatmap.png")
+plt.show()
+
+#Linechart
+sales_trend = df.groupby('Order Date')['Sales'].sum().reset_index()
+sns.lineplot(x='Order Date', y='Sales', data=sales_trend, marker='o')
+plt.title('Sales Trend Over Time')
+plt.xlabel('Order Date')
+plt.ylabel('Total Sales')
+plt.savefig("linechart.png")
+plt.show()

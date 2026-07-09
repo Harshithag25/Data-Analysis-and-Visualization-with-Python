@@ -72,10 +72,8 @@ The project uses the Superstore Sales dataset:
 The program generates:
 
 -Bar chart → Total Sales by Category
-![Bar Chart](outputs/bar_chart.png)
 
 -Scatter plot → Sales vs Profit by Category
-![Scatter Plot](outputs/scatter_plot.png)
 
 -Heatmap → correlation_heatmap.png
 
